@@ -1,3 +1,41 @@
 input {
-    width: 100% !important;
+    width: calc(100% - 44px) !important;
+    margin-left: 8px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/search-icon.png')
+}
+
+.title {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.area-produtos {
+    margin-top: 10px;
+    height: 150px;
+    display: grid;
+    grid-template-areas: "t ."
+                         "p1 p2";
+}
+
+.produtos {
+    height: 150px;
+    width: 150px;
+    background-color: #cccccc9d;
+}
+
+.categoria {
+    grid-area: t;
+}
+
+#p1 {
+    grid-area: p1;
+}
+
+#p2 {
+    grid-area: p2;
 }
