@@ -211,14 +211,27 @@ input {
 
 .btn-compra {
     height: 50px;
-    width: 90%;
+    width: 100%;
     background-color: #2bbd58;
     border-radius: 10px;
     color: white;
     font-size: 20px; 
     text-align: center;
-    line-height: 50px;   
-    position: absolute;
-    bottom: 20px;
+    line-height: 50px; 
     letter-spacing: 1.5px;
+}
+#info-lojas {
+    display: grid;
+    grid-template-areas: "img info"; 
+}
+#logo-img {
+    background-image: url('../img/logo_loja.png');
+    height: 50px;
+    width: auto;
+    grid-area: img;
+    margin-right: 10px;
+}
+
+#info-txt {
+    grid-area: info;
 }
