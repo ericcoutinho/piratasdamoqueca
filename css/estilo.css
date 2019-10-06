@@ -27,17 +27,21 @@ input {
 
 .area-produtos-compra {
     margin-top: 10px;
-    height: 150px;
+    height: 250px;
     display: grid;
-    grid-row-gap: 10px;
-    grid-template-areas: "t ."
-                         "p1 p1"
-                         "td td"
-                         "d d"
-                         "b b";
+    grid-template-areas: "t"
+                         "p1";
 }
 
 .produtos {
+    height: 150px;
+    width: 150px;
+    display: grid;
+    grid-template-areas: "img"
+                         "titulo";
+}
+
+.compra {
     height: 150px;
     width: 150px;
     display: grid;
@@ -121,6 +125,21 @@ input {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Fgames%2Fcadeiragamer.png?alt=media&token=385a3551-e093-44ab-bfab-b2e0b32a20b4');
 }
 
+#cadeira02-img {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Fgames%2Fcadeiras%2Fcadeira1.jpeg?alt=media&token=0d8ad4ea-358c-482c-9705-4d388f6e5eee');
+    border-radius: 12%;
+}
+
+#cadeira03-img {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Fgames%2Fcadeiras%2Fcadeira2.jpeg?alt=media&token=170a705c-96e2-49a0-a784-f90e1842f66c');
+    border-radius: 12%;
+]}
+
+#cadeira04-img {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Fgames%2Fcadeiras%2Fcadeira3.jpeg?alt=media&token=dad1e84a-74be-4ca5-a84a-9f7c7a53f016');
+    border-radius: 12%;
+}
+
 #consoles-img {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Fgames%2Fconsoleps4.png?alt=media&token=b6217524-c8fb-47dd-897e-38efef4f2285');
 }
@@ -187,4 +206,19 @@ input {
 .titulo-produto {
     grid-area: titulo;
     margin: 0 auto;
+    text-align: center;
+}
+
+.btn-compra {
+    height: 50px;
+    width: 90%;
+    background-color: #2bbd58;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+    line-height: 50px;   
+    position: absolute;
+    bottom: 20px;
+    letter-spacing: 1.5px;
 }
