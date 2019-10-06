@@ -161,6 +161,10 @@ input {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Facessorios%2F4olhos2.png?alt=media&token=062ebf1f-566b-497c-b8aa-c3dd46d5d47a');
 }
 
+#bone1-img {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lojasheyla.appspot.com/o/Hack%20Faesa%2Facessorios%2Fbone1.png?alt=media&token=93863eb6-45c5-49c9-959e-a76edc6a534b');
+}
+
 .img-produto {
     grid-area: img;
     height: 130px;
