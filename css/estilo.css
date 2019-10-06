@@ -98,7 +98,7 @@ input {
 }
 
 #sorvete-img {
-    background-image: url('../img/alimentacao/sorvete.png');
+    background-image: url('../img/alimentacao/sorvetes.png');
 }
 
 #bebidas-img {
@@ -140,8 +140,6 @@ input {
 #camera-img {
     background-image: url('../img/alimentacao/soportecamera.png');
 }
-
-
 
 .img-produto {
     grid-area: img;
