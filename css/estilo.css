@@ -20,7 +20,8 @@ input {
     display: grid;
     grid-template-areas: "t ."
                          "p1 p2"
-                         "p3 p4";
+                         "p3 p4"
+                         "p5 p6";
 }
 
 .produtos {
@@ -50,17 +51,21 @@ input {
 }
 
 #p3 {
+    background-image: url('../img/roupas-e-acessorios/oculos_Escuros.png');
     grid-area: p3;
 }
 
 #p4 {
+    background-image: url('../img/roupas-e-acessorios/moletons.png');
     grid-area: p4;
 }
 #p5 {
+    background-image: url('../img/roupas-e-acessorios/moletons.png');
     grid-area: p5;
 }
 
 #p6 {
+    background-image: url('../img/roupas-e-acessorios/moletons.png');
     grid-area: p6;
 }
 
