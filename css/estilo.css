@@ -45,7 +45,7 @@ input {
     grid-area: p1;
 }
 
-#p1-img {
+#games-img {
     background-image: url('../img/games/games.png');
 }
 
@@ -53,7 +53,7 @@ input {
     grid-area: p2;
 }
 
-#p2-img {
+#eletronicos-img {
     background-image: url('../img/informatica/eletronicos.png');
 }
 
@@ -61,7 +61,7 @@ input {
     grid-area: p3;
 }
 
-#p3-img {
+#oculos_Escuros-img {
     background-image: url('../img/roupas-e-acessorios/oculos_Escuros.png');
 }
 
@@ -69,7 +69,7 @@ input {
     grid-area: p4;
 }
 
-#p4-img {
+#bicicletas-img {
     background-image: url('../img/bicicleta/bicicletas.png');
 }
 
@@ -77,17 +77,71 @@ input {
     grid-area: p5;
 }
 
-#p5-img {
-    background-image: url('../img/bicicleta/bicicletas.png');
+#japa-img {
+    background-image: url('../img/alimentacao/japa.png');
 }
 
 #p6 {
     grid-area: p6;
 }
 
-#p6-img {
-    background-image: url('../img/roupas-e-acessorios/moletons.png');
+#sobremesas-img {
+    background-image: url('../img/alimentacao/japa.png');
 }
+
+#combos-img {
+    background-image: url('../img/alimentacao/combo.png');
+}
+
+#burger-img {
+    background-image: url('../img/alimentacao/burger.png');
+}
+
+#sorvete-img {
+    background-image: url('../img/alimentacao/sorvete.png');
+}
+
+#bebidas-img {
+    background-image: url('../img/alimentacao/bebidas.png');
+}
+
+#cadeira-img {
+    background-image: url('../img/alimentacao/cadeiragamer.jpg');
+}
+
+#consoles-img {
+    background-image: url('../img/alimentacao/consoleps4.jpg');
+}
+
+#kitgamer-img {
+    background-image: url('../img/alimentacao/kitgamer.jpg');
+}
+
+#xonenfs-img {
+    background-image: url('../img/alimentacao/xonenfs.jpg');
+}
+
+#Headphone-img {
+    background-image: url('../img/alimentacao/Headphone.png');
+}
+
+#foneblue-img {
+    background-image: url('../img/alimentacao/foneblue.png');
+}
+
+#carregadorexterno-img {
+    background-image: url('../img/alimentacao/hdexterno.png');
+}
+
+#somportatil-img {
+    background-image: url('../img/alimentacao/somportatil.png');
+}
+
+#camera-img {
+    background-image: url('../img/alimentacao/soportecamera.png');
+}
+
+
 
 .img-produto {
     grid-area: img;
