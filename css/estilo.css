@@ -18,6 +18,7 @@ input {
     margin-top: 10px;
     height: 150px;
     display: grid;
+    grid-row-gap: 10px;
     grid-template-areas: "t ."
                          "p1 p2"
                          "p3 p4"
@@ -41,45 +42,57 @@ input {
 }
 
 #p1 {
-    background-image: url('../img/games/games.png');
     grid-area: p1;
 }
 
+#p1-img {
+    background-image: url('../img/games/games.png');
+}
+
 #p2 {
-    background-image: url('../img/informatica/eletronicos.png');
     grid-area: p2;
 }
 
+#p2-img {
+    background-image: url('../img/informatica/eletronicos.png');
+}
+
 #p3 {
-    background-image: url('../img/roupas-e-acessorios/oculos_Escuros.png');
     grid-area: p3;
 }
 
+#p3-img {
+    background-image: url('../img/roupas-e-acessorios/oculos_Escuros.png');
+}
+
 #p4 {
-    background-image: url('../img/roupas-e-acessorios/moletons.png');
     grid-area: p4;
 }
+
+#p4-img {
+    background-image: url('../img/bicicleta/bicicletas.png');
+}
+
 #p5 {
-    background-image: url('../img/roupas-e-acessorios/moletons.png');
     grid-area: p5;
 }
 
+#p5-img {
+    background-image: url('../img/bicicleta/bicicletas.png');
+}
+
 #p6 {
-    background-image: url('../img/roupas-e-acessorios/moletons.png');
     grid-area: p6;
 }
 
-#p7 {
-    grid-area: p7;
-}
-
-#p8 {
-    grid-area: p8;
+#p6-img {
+    background-image: url('../img/roupas-e-acessorios/moletons.png');
 }
 
 .img-produto {
     grid-area: img;
     height: 130px;
+    background-repeat: no-repeat;
 }
 
 .titulo-produto {
