@@ -16,7 +16,7 @@ input {
 
 .area-produtos {
     margin-top: 10px;
-    height: 150px;
+    height: 130px;
     display: grid;
     grid-template-areas: "t ."
                          "p1 p2"
